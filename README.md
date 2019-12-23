@@ -15,3 +15,5 @@ With the date filter in place, it would be more useful to have multiple conditio
 
 ## Challenge Summary
 By adding on to the initial script for the webpage, four more filters for the table containing the data were created. Bootstrap was used to customize the page and because of the grid system Bootstrap uses, allows for a responsive webpage that is easily organized. An added feature for the future could be the ability to search comments for certain terms. It would be useful to be able to search for sightings that reported a "red" color. 
+
+<img width="1904" alt="UFO_screenshot" src="https://user-images.githubusercontent.com/32782443/71339198-af0bb400-2507-11ea-80d6-d485ad70ffb8.png">
