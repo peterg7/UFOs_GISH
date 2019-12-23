@@ -7,7 +7,7 @@ var tbody = d3.select("tbody");
 // Define function to build table from data
 function buildTable(data) {
 	// Clear existing table to get clean working slate
-	tbody.html("");
+	tbody.html('');
 	// Next, loop through each object in the data
 	// and append a row and cells for each value in the row
 	data.forEach((dataRow) => {
@@ -25,7 +25,7 @@ function buildTable(data) {
 function handleClick() {
 	// Grab the datetime value from the filter
 	let date = d3.select("#datetime").property("value");
-	
+	let filteredData = tableData;
 	// Check to see if a date was entered and filter the
   	// data using that date.
 	if (date) {
